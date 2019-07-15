@@ -10,7 +10,7 @@
             "email": "paulo@actio.net.br"
         }
     ],
-    "require": {}
+    "require": {},
     "autoload" : {
 		"psr-4" : {
 			"Actio\\" : "src"
