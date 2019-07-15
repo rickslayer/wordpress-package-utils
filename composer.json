@@ -11,4 +11,9 @@
         }
     ],
     "require": {}
+    "autoload" : {
+		"psr-4" : {
+			"Actio\\" : "src"
+		}
+	}
 }
