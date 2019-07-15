@@ -1,15 +1,25 @@
 <?php
 namespace Actio\Handler;
 
-class DBHandler {
-    private $query;
-    private $id;
-    private $instance;
-
+final class DatabaseHandler 
+{
+    private $db;
     public function __construct()
     {
         global $wpdb;
-        $this->instance = $wpdb;
+        $this->db = $wpdb;
+
+    }
+    
+    public function get($query)
+    {
+        die(print_r($this->db->get_results($query), true));
     }
 
+    public function where()
+    {
+        
+    }
+
+   
 }
