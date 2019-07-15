@@ -1,1 +1,14 @@
 
+{
+    "name": "rickslayer/twentynineteen-child",
+    "description": "list of facilities to use in wordpress",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rickslayer",
+            "email": "paulo@actio.net.br"
+        }
+    ],
+    "require": {}
+}
